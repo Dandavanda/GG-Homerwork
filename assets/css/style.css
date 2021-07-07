@@ -1,0 +1,33 @@
+.container {
+    margin: 5px;
+    padding: 10px;
+    background-color:rgba(214, 214, 214, 0.474);
+    border: solid #aeaeae;
+    border-radius: 4px;
+}
+
+.img-poster {
+    height: 300px;
+    width: 300px;
+}
+
+input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #submit {
+    width: 40%;
+    background-color: #aeaeae;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
