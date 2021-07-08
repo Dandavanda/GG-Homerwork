@@ -29,6 +29,23 @@
        <button>Select</button>
     </div>
 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="assets/js/action.js"></script>
+    <script>
+
+        axios.get('https://gist.githubusercontent.com/aryapradipta9/e6492383477803b233916e01f36d5465/raw/66942c739d66d3774303f84071696aa865a07077/single-sample.json')
+        .then(function (response) {
+            // handle success
+            console.log(response);
+        })
+        .catch(function (error) {
+            // alert to handle error
+            console.log(error);
+            alert("I'm sorry there's some error");
+        });
+        
+    
+        
+    </script>
 </body>
 </html>
